@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
-
+	<head>
+		<meta charset="utf-8" />
+		<title>Codepen.IO</title>
+		
+		<link href="styles/styles.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	</head>
 
 <body>
 	<div class="top-bar">
+		<div class="topbar-aligned-left-buttons">
 		<div class="site-logo">
-			<!-- img tag here -->
+			<img src="images/Codepen.io_logo.png" alt="Codepen.io Website Logo">	
 		</div>
 		<div class="navigation-buttons-stack">
-			<div class="explore-in-yellow-caps">
-				<!-- EXPLORE -->
+			<div id="explore-in-yellow-caps">
+				EXPLORE
 			</div>
 			<div class="navigation-buttons-list">
 				<div class="navigation-buttons-list-item">
@@ -26,23 +33,25 @@
 				</div>
 				<div class="navigation-buttons-list-item" id="spark-dropdown-menu">
 					Spark
-					<!-- DROP-DOWN ICON -->
+					<i class="fas fa-chevron-down"></i>
 				</div>
 			</div>
-
 		</div>
-		<div class="topbar-button-dropdown">
-			Create
-			<!-- DROP-DOWN ICON, BUT GREEN THIS TIME -->
 		</div>
-		<div class="search-icon">
-			<!-- SEARCH ICON MAGNIFYING GLASS -->
-		</div>
-		<div class="topbar-button">
-			Log In
-		</div>
-		<div class="topbar-button">
-			Sign Up
+		<div class="topbar-aligned-right-buttons">
+			<div class="topbar-button-dropdown">
+				Create
+				<i id="topbar-button-dropdown-green" class="fas fa-chevron-down"></i>
+			</div>
+			<div class="search-icon">
+				<i id="search-icon-magnifying-glass" class="fas fa-search"></i>
+			</div>
+			<div class="topbar-button">
+				Log In
+			</div>
+			<div class="topbar-button">
+				Sign Up
+			</div>
 		</div>
 	</div>
 

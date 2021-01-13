@@ -1,0 +1,119 @@
+body {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family: sans-serif;
+}
+
+.top-bar {
+	display: flex;
+	height: 65px;
+	background: black;
+	color: white;
+	justify-content: space-between;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.top-bar. > .topbar-aligned-left-buttons {
+
+}
+
+.top-bar > .topbar-aligned-left-buttons > .site-logo {
+	margin-right: 40px;
+}
+
+.top-bar > .topbar-aligned-left-buttons > .site-logo img {
+	width: 150px;
+	margin-top: -30px;
+	margin-left: 10px;
+	filter: invert(1);
+}
+
+.top-bar > .topbar-aligned-left-buttons > .navigation-buttons-stack > .navigation-buttons-list {
+	display: flex;
+	flex-direction: row;
+}
+
+.top-bar > .topbar-aligned-left-buttons > .navigation-buttons-stack > .navigation-buttons-list > .navigation-buttons-list-item {
+	padding-right: 15px;
+	font-weight: bold;
+}
+
+.top-bar > .topbar-aligned-right-buttons > .topbar-button {
+	padding: 10px 25px;
+}
+
+.top-bar > .topbar-aligned-right-buttons > .topbar-button-dropdown {
+	padding: 10px 25px;
+}
+
+#explore-in-yellow-caps {
+	margin-top: 10px;
+	color: gold;
+}
+
+#spark-dropdown-menu {
+	font-weight: normal;
+	color: grey;
+}
+
+#spark-dropdown-menu > .fa-chevron-down i {
+	filter: invert(1);
+}
+
+.top-bar > .topbar-aligned-left-buttons {
+	display: flex;
+	align-items: left;
+}
+
+.top-bar > .topbar-aligned-right-buttons {
+	display: flex;
+	justify-content: right;
+}
+
+
+.top-bar > .topbar-aligned-right-buttons > .topbar-button {
+	background: rgb(40, 42, 48);
+	color: white;
+	padding-top: 15px;
+	border-radius: 3px;
+	font-size: 0.9em;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+.top-bar > .topbar-aligned-right-buttons > .topbar-button-dropdown {
+	background: rgb(40, 42, 48);
+	color: white;
+	padding-top: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+#topbar-button-dropdown-green {
+	color: rgb(65,197,101);
+}
+
+.search-icon {
+	padding-top: 7px;
+	font-size: 1.8em;	
+	margin: 10px;
+	color: grey;
+}
