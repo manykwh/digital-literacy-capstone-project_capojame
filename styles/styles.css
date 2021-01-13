@@ -23,14 +23,21 @@ body {
 }
 
 .top-bar > .topbar-aligned-left-buttons > .site-logo {
-	margin-right: 40px;
+	height: 55px;
+	width: 150px;
+	overflow: hidden;
+	border: 5px solid black;
 }
 
 .top-bar > .topbar-aligned-left-buttons > .site-logo img {
 	width: 150px;
-	margin-top: -30px;
-	margin-left: 10px;
+	height: auto;
 	filter: invert(1);
+	margin-top: -25px;
+}
+
+.top-bar > .topbar-aligned-left-buttons > .navigation-buttons-stack {
+	padding-left: 40px;
 }
 
 .top-bar > .topbar-aligned-left-buttons > .navigation-buttons-stack > .navigation-buttons-list {
@@ -54,6 +61,8 @@ body {
 #explore-in-yellow-caps {
 	margin-top: 10px;
 	color: gold;
+	font-size: 0.7em;
+	font-weight: bold;
 }
 
 #spark-dropdown-menu {
@@ -120,7 +129,7 @@ body {
 
 
 .content-area {
-	background-image: linear-gradient( to bottom right, gray, black);
+	background-image: linear-gradient( to bottom right, grey, black);
 	display: flex;
 	justify-content: space-between;
 }
@@ -131,11 +140,14 @@ body {
 }
 
 #pWhatIsCodePen1 {
+	color: white;
 	font-size: 1.8em;
 }
 
 #pWhatIsCodePen2 {
-	font-size: 1.6em;
+	color: white;
+	font-size: 1.5em;
+	letter-spacing: 0.5px;
 }
 
 .content-area > .left-side > .content-area-lure-buttons {
@@ -144,7 +156,8 @@ body {
 }
 
 #signup-for-free-button {
-	margin: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	padding: 15px;
 	background: rgb(66, 199, 102);
 	color: black;
@@ -153,10 +166,34 @@ body {
 }
 
 #learnmore-button {
-	margin: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
 	padding: 15px;
 	background: rgb(0, 0, 0);
 	color: white;
 	border-radius: 3px;
 	font-size: 1.5em;
+}
+
+.content-area > .right-side {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.content-area > .right-side > .image-header {
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+	
+}
+
+.content-area > .right-side> .image-body {
+	margin-top: 10px;
+}
+
+#CodePenProjectsIsBlue {
+	color: rgb(77,187,243);
+	margin-left: 3px;
 }
