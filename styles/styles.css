@@ -117,3 +117,46 @@ body {
 	margin: 10px;
 	color: grey;
 }
+
+
+.content-area {
+	background-image: linear-gradient( to bottom right, gray, black);
+	display: flex;
+	justify-content: space-between;
+}
+
+.content-area > .left-side {
+	width: 50%;
+	margin-left: 50px;
+}
+
+#pWhatIsCodePen1 {
+	font-size: 1.8em;
+}
+
+#pWhatIsCodePen2 {
+	font-size: 1.6em;
+}
+
+.content-area > .left-side > .content-area-lure-buttons {
+	display: flex;
+	align-items: left;
+}
+
+#signup-for-free-button {
+	margin: 20px;
+	padding: 15px;
+	background: rgb(66, 199, 102);
+	color: black;
+	border-radius: 3px;
+	font-size: 1.5em;
+}
+
+#learnmore-button {
+	margin: 20px;
+	padding: 15px;
+	background: rgb(0, 0, 0);
+	color: white;
+	border-radius: 3px;
+	font-size: 1.5em;
+}
