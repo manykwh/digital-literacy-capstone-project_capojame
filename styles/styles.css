@@ -4,6 +4,7 @@ body {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	font-family: sans-serif;
+	background: rgb(19,20,22);
 }
 
 .top-bar {
@@ -129,6 +130,7 @@ body {
 
 
 .content-area {
+	padding-top: 30px;
 	background-image: linear-gradient( to bottom right, grey, black);
 	display: flex;
 	justify-content: space-between;
@@ -185,15 +187,42 @@ body {
 .content-area > .right-side > .image-header {
 	display: flex;
 	flex-direction: row;
-	margin-top: 50px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-bottom: 5px;
 	
 }
 
 .content-area > .right-side> .image-body {
-	margin-top: 10px;
 }
 
 #CodePenProjectsIsBlue {
 	color: rgb(77,187,243);
 	margin-left: 3px;
+}
+
+.bottom-bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.bottom-bar > .bottom-bar-element {
+	border: 1px solid grey;
+	text-align: center;
+	color: white;
+	font-size: 0.9em;
+	background: rgb(40, 42, 48);
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.bottom-bar > .bottom-bar-element b {
+	font-family: 'Sirin Stencil', cursive;
+	font-size: 1.3em;
+}
+
+.bottom-bar > .bottom-bar-element p {
+	padding-left: 5px;
+	padding-right: 5px;
 }
